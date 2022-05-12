@@ -26,34 +26,41 @@
 	box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
 }
 
-.nav2 a img {
--webkit-border-radius: 15px 60px;
--moz-border-radius: 15px 60px;
--o-border-radius: 15px 60px;
-border-radius: 15px 60px;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-}
-
-.nav2 a:hover img, a:focus img {
-border-radius: 15px;
-}
 
 
-.nav3 a:hover img, a:focus img {
-border-radius: 15px;
-}
 
-.nav3 img{
+
+.nav2 img{
 	transition: 1s ease;
 	}
 	
-	.nav3 img:hover{
+	.nav2 img:hover{
 	-webkit-transform: scale(1.2);
 	-ms-transform: scale(1.2);
 	transform: scale(1.2);
 	transition: 1s ease;
 	}
+	
+
+
+
+
+
+
+	.nav3 a img {
+		height: 220px;
+		width: 220px;
+	-webkit-border-radius: 15px 60px;
+	-moz-border-radius: 15px 60px;
+	-o-border-radius: 15px 60px;
+	border-radius: 15px 60px;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+
+	.nav3 a:hover img, a:focus img {
+		border-radius: 15px;
+		}
 	
